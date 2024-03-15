@@ -1,0 +1,11 @@
+#Python program for counting the digits in a number.
+
+def count_digit(number):
+    i=number
+    count = 0
+    while(i>0):
+        count +=1
+        i = i//10
+        
+    print(f"The number of digits in {number}:",count)   
+    
