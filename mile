@@ -1,0 +1,7 @@
+# Function for converting kilometers into miles
+
+km = int(input("Enter a value in kilometer :"))
+
+miles = km / 1.609344
+
+print(f'{km} km = {miles} miles')
