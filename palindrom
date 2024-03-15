@@ -1,0 +1,7 @@
+#Python program to check if a string is palindrome or not.
+
+def check_palindrom(name):
+    if name[::] == name[::-1]:
+        print(True)
+    else:
+        print(False)
