@@ -1,0 +1,10 @@
+#Python program to add two numbers.
+
+
+def add_number(num1,num2):
+    #adding two numbers : 
+    result = num1 + num2
+    
+    #print result
+    return f'Sum of {num1} and {num2} is {result}'
+    
