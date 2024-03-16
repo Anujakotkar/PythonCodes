@@ -1,0 +1,15 @@
+ #Find String Of Maximum length Inside A String Sentence Using Python For Loop
+
+# st = 'I am smartest person on the earth'
+
+def max_length(st):
+    new_string = ''
+    max_length = -1
+    new_string = st.split()
+    for i in st.split():
+        if len(i) > max_length:
+            max_length = len(i)
+            new_string = i
+           
+       
+    return new_string  
